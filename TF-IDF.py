@@ -8,8 +8,7 @@ import matplotlib.pylab as plt
 import math
 import operator
 from nltk.tokenize import RegexpTokenizer
-# copy right School of Information
-# edited by Yuqing Xia
+
 ehr=open('ehr.txt').read()
 med=open('medhelp.txt').read()
 stop_words=open('stoplist.txt','r')
